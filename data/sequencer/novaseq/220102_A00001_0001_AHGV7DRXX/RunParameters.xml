@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<RunParameters>
+  <InstrumentType>NovaSeq</InstrumentType>
+  <RunId>220102_A00001_0001_AHGV7DRXX</RunId>
+  <ExperimentName>NovaSeq Test Run</ExperimentName>
+  <SequencingKitNumber>20028312</SequencingKitNumber>
+  <Read1NumberOfCycles>151</Read1NumberOfCycles>
+  <Read2NumberOfCycles>151</Read2NumberOfCycles>
+  <IndexRead1NumberOfCycles>10</IndexRead1NumberOfCycles>
+  <IndexRead2NumberOfCycles>10</IndexRead2NumberOfCycles>
+  <WorkflowType>Standard</WorkflowType>
+  <ChemistryVersion>1.0</ChemistryVersion>
+</RunParameters>

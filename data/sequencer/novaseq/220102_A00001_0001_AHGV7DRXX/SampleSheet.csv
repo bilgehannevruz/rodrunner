@@ -1,0 +1,28 @@
+[Header]
+FileFormatVersion,2
+RunName,NovaSeq Test Run
+InstrumentPlatform,NovaSeq
+InstrumentType,NovaSeq 6000
+
+[Reads]
+Read1Cycles,151
+Read2Cycles,151
+Index1Cycles,10
+Index2Cycles,10
+
+[BCLConvert_Settings]
+CreateFastqForIndexReads,0
+OverrideCycles,Y151;I10;I10;Y151
+AdapterRead1,AGATCGGAAGAGCACACGTCTGAACTCCAGTCA
+AdapterRead2,AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT
+
+[BCLConvert_Data]
+Sample_ID,Sample_Name,index,index2,Sample_Project,Lane
+Sample1,Sample1,ATCACGTTAA,AACCGTGTAG,Project3,1
+Sample2,Sample2,CGATGTTAAT,AACCGTGTAG,Project3,1
+Sample3,Sample3,TTAGGCATCA,AACCGTGTAG,Project4,2
+Sample4,Sample4,TGACCAATCA,AACCGTGTAG,Project4,2
+Sample5,Sample5,ACAGTGATCA,AACCGTGTAG,Project3,3
+Sample6,Sample6,GCCAATATCA,AACCGTGTAG,Project3,3
+Sample7,Sample7,CAGATCATCA,AACCGTGTAG,Project4,4
+Sample8,Sample8,ACTTGAATCA,AACCGTGTAG,Project4,4

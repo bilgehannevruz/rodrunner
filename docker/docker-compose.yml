@@ -1,0 +1,47 @@
+version: '3.8'
+
+services:
+  irods-catalog:
+    build:
+      context: irods_catalog
+    environment:
+      - POSTGRES_PASSWORD=testpassword
+
+  irods-catalog-provider:
+    build:
+      context: irods_catalog_provider
+    depends_on:
+      - irods-catalog
+    ports:
+      - "1247:1247"
+
+  prefect:
+      image: prefecthq/prefect:3.3.5-python3.10
+      ports:
+        - "4200:4200"
+      environment:
+        - PREFECT_API_URL=http://localhost:4200/api
+      volumes:
+        - prefect_data:/root/.prefect
+      command: prefect server start --host 0.0.0.0
+
+  api:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - IRODS_HOST=localhost
+      - IRODS_PORT=1247
+      - IRODS_USER=rods
+      - IRODS_PASSWORD=rods
+      - IRODS_ZONE=tempZone
+      - SEQUENCER_BASE_DIR=/data/sequencer
+      - API_DEBUG=true
+    volumes:
+      - ../data:/data
+      - ../irods_prefect:/app/irods_prefect
+
+volumes:
+  prefect_data:

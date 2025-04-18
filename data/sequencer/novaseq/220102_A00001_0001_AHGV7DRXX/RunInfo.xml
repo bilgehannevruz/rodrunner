@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<RunInfo Version="4">
+  <Run Id="220102_A00001_0001_AHGV7DRXX" Number="0001">
+    <Flowcell>AHGV7DRXX</Flowcell>
+    <Instrument>A00001</Instrument>
+    <Date>1/2/2022</Date>
+    <Reads>
+      <Read Number="1" NumCycles="151" IsIndexedRead="N" />
+      <Read Number="2" NumCycles="10" IsIndexedRead="Y" />
+      <Read Number="3" NumCycles="10" IsIndexedRead="Y" />
+      <Read Number="4" NumCycles="151" IsIndexedRead="N" />
+    </Reads>
+    <FlowcellLayout LaneCount="4" SurfaceCount="2" SwathCount="2" TileCount="88" />
+  </Run>
+</RunInfo>

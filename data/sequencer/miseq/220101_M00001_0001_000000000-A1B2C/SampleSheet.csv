@@ -1,0 +1,26 @@
+[Header]
+IEMFileVersion,4
+Investigator Name,John Doe
+Experiment Name,MiSeq Test Run
+Date,1/1/2022
+Workflow,GenerateFASTQ
+Application,FASTQ Only
+Assay,Nextera XT
+Description,MiSeq test run
+Chemistry,Amplicon
+
+[Reads]
+151
+151
+
+[Settings]
+ReverseComplement,0
+Adapter,AGATCGGAAGAGCACACGTCTGAACTCCAGTCA
+AdapterRead2,AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT
+
+[Data]
+Sample_ID,Sample_Name,Sample_Plate,Sample_Well,I7_Index_ID,index,I5_Index_ID,index2,Sample_Project,Description
+Sample1,Sample1,Plate1,A1,N701,TAAGGCGA,S501,TAGATCGC,Project1,Sample 1
+Sample2,Sample2,Plate1,A2,N702,CGTACTAG,S501,TAGATCGC,Project1,Sample 2
+Sample3,Sample3,Plate1,A3,N703,AGGCAGAA,S501,TAGATCGC,Project2,Sample 3
+Sample4,Sample4,Plate1,A4,N704,TCCTGAGC,S501,TAGATCGC,Project2,Sample 4

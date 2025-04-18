@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<RunParameters>
+  <InstrumentType>MiSeq</InstrumentType>
+  <RunId>220101_M00001_0001_000000000-A1B2C</RunId>
+  <ExperimentName>MiSeq Test Run</ExperimentName>
+  <SequencingKitNumber>MS-102-3001</SequencingKitNumber>
+  <Read1NumberOfCycles>151</Read1NumberOfCycles>
+  <Read2NumberOfCycles>151</Read2NumberOfCycles>
+  <IndexRead1NumberOfCycles>8</IndexRead1NumberOfCycles>
+  <IndexRead2NumberOfCycles>8</IndexRead2NumberOfCycles>
+  <Chemistry>Amplicon</Chemistry>
+</RunParameters>
