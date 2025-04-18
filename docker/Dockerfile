@@ -27,8 +27,7 @@ RUN groupadd -r app && useradd -r -g app app
 WORKDIR /app
 
 # Copy the environment and source code
-COPY --from=builder --chown=app:app /app/.venv /app/.venv
-COPY --from=builder --chown=app:app /app/irods_prefect /app/irods_prefect
+COPY --from=builder --chown=app:app /app/ /app/
 
 # Set environment variables
 ENV PATH="/app/.venv/bin:$PATH"
@@ -38,4 +37,4 @@ ENV PYTHONPATH="/app:$PYTHONPATH"
 USER app
 
 # Run the application
-CMD ["uvicorn", "irods_prefect.api.main_simple:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "rodrunner.api.main_simple:app", "--host", "0.0.0.0", "--port", "8000"]

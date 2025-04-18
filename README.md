@@ -34,7 +34,7 @@ pip install -e .
 ### Running the API
 
 ```bash
-uvicorn irods_prefect.api.main:app --reload
+uvicorn rodrunner.api.main:app --reload
 ```
 
 ### Running with Docker
@@ -93,7 +93,7 @@ isort .
 ### Type checking
 
 ```bash
-mypy irods_prefect
+mypy rodrunner
 ```
 
 ## License

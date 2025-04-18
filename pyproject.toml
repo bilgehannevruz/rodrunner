@@ -1,5 +1,5 @@
 [project]
-name = "irods_prefect"
+name = "rodrunner"
 version = "0.1.0"
 description = "Prefect v3 workflows for iRODS interactions"
 readme = "README.md"
@@ -41,7 +41,7 @@ dev = [
 ]
 
 [tool.setuptools]
-packages = ["irods_prefect"]
+packages = ["rodrunner"]
 
 [tool.black]
 line-length = 88
