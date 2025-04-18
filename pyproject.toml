@@ -63,3 +63,10 @@ testpaths = ["tests"]
 python_files = "test_*.py"
 python_functions = "test_*"
 python_classes = "Test*"
+addopts = "--cov=rodrunner --cov-report=term-missing --cov-report=xml:coverage.xml"
+markers = [
+    "unit: marks tests as unit tests",
+    "integration: marks tests as integration tests",
+    "irods: marks tests that require an iRODS server",
+    "api: marks tests for API endpoints"
+]
