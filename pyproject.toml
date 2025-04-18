@@ -39,6 +39,12 @@ dev = [
     "mypy>=1.5.0",
     "flake8>=6.1.0",
 ]
+docs = [
+    "mkdocs>=1.5.2",
+    "mkdocs-material>=9.1.15",
+    "mkdocstrings>=0.21.2",
+    "mkdocs-material-extensions>=1.1.0",
+]
 
 [tool.setuptools]
 packages = ["rodrunner"]
