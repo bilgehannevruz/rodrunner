@@ -119,7 +119,15 @@ pytest tests/test_api
 
 ## Documentation
 
-Comprehensive documentation is available in the `docs` directory. You can build and view the documentation using MkDocs:
+Comprehensive documentation is available in the `docs` directory and is also hosted on Read the Docs.
+
+### Online Documentation
+
+The documentation is hosted on Read the Docs at [https://irods-prefect-workflows.readthedocs.io/](https://irods-prefect-workflows.readthedocs.io/).
+
+### Local Documentation
+
+You can also build and view the documentation locally using MkDocs:
 
 ```bash
 # Install MkDocs and dependencies

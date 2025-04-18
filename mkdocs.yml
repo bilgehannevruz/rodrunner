@@ -1,11 +1,11 @@
 site_name: Rodrunner
 site_description: Documentation for iRODS Prefect v3 workflows for sequencer data management
-site_author: Your Name
+site_author: Bilgehan Nevruz
 repo_url: https://github.com/bilgehannevruz/rodrunner
 repo_name: rodrunner
 
 theme:
-  name: material
+  name: mkdocs
   palette:
     primary: indigo
     accent: indigo
