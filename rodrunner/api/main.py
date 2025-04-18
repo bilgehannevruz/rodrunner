@@ -21,7 +21,7 @@ def create_app(config: AppConfig) -> FastAPI:
     """
     app = FastAPI(
         title="iRODS Prefect API",
-        description="API for iRODS Prefect workflows",
+        description="API for Rodrunner",
         version="0.1.0"
     )
     

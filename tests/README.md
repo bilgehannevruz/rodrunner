@@ -1,6 +1,6 @@
-# Tests for iRODS Prefect Workflows
+# Tests for Rodrunner
 
-This directory contains tests for the iRODS Prefect workflows project.
+This directory contains tests for the Rodrunner project.
 
 ## Test Structure
 
