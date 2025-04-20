@@ -123,7 +123,7 @@ Comprehensive documentation is available in the `docs` directory and is also hos
 
 ### Online Documentation
 
-The documentation is hosted on Read the Docs at [https://irods-prefect-workflows.readthedocs.io/](https://irods-prefect-workflows.readthedocs.io/).
+The documentation is hosted on Read the Docs at [https://rodrunner.readthedocs.io/](https://rodrunner.readthedocs.io/).
 
 ### Local Documentation
 

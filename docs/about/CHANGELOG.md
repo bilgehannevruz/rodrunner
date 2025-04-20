@@ -33,10 +33,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Security
 - N/A
 
-## [0.1.0] - YYYY-MM-DD
+## [1.0.0] - YYYY-MM-DD
 
 ### Added
 - Initial release
 
-[Unreleased]: https://github.com/yourusername/irods-prefect-workflows/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/yourusername/irods-prefect-workflows/releases/tag/v0.1.0
+[Unreleased]: https://github.com/bilgehannevruz/rodrunner/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/bilgehannevruz/rodrunner/releases/tag/v1.0.0

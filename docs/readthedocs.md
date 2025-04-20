@@ -7,8 +7,8 @@ This project is set up to be hosted on [Read the Docs](https://readthedocs.org/)
 1. Go to [Read the Docs](https://readthedocs.org/) and sign in or create an account.
 2. Click on "Import a Project" and select your GitHub repository.
 3. Configure the project settings:
-   - Name: `irods-prefect-workflows`
-   - Repository URL: `https://github.com/yourusername/irods-prefect-workflows`
+   - Name: `rodrunner`
+   - Repository URL: `https://github.com/bilgehannevruz/rodrunner`
    - Repository type: `Git`
    - Default branch: `main`
    - Documentation type: `Mkdocs`

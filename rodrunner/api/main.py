@@ -22,7 +22,7 @@ def create_app(config: AppConfig) -> FastAPI:
     app = FastAPI(
         title="iRODS Prefect API",
         description="API for Rodrunner",
-        version="0.1.0"
+        version="1.0.0"
     )
     
     # Add CORS middleware
